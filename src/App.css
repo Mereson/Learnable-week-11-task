@@ -1,0 +1,126 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: #e0e0e0;
+}
+
+.Todo {
+  margin-top: 100px;
+  background: #ecebeb;
+  box-sizing: content-box;
+  padding: 30px 50px;
+  transition: 500ms;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.349);
+}
+
+h1 {
+  margin: 10px 0;
+  color: rgb(5, 190, 129);
+}
+.listSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoForm {
+  margin-top: 20px;
+  width: 460px;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  border: solid #9b9d9ea8;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-radius: 10px;
+  gap: 5px;
+}
+
+.todoInput {
+  padding: 15px 10px;
+  width: 350px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+  background: transparent;
+  outline: none;
+  margin: 0;
+  border: none;
+}
+
+.editInput {
+  width: 308px;
+}
+
+.todoTask {
+  padding: 15px 10px;
+  width: 300px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+  background: transparent;
+  outline: none;
+  margin: 0;
+  border: none;
+}
+
+.todoBtn {
+  cursor: pointer;
+  width: 20%;
+  color: #000;
+  background: transparent;
+  margin: 0;
+  border: 0;
+  transition: 500ms;
+}
+
+.todoBtn:hover {
+  color: rgb(5, 190, 129);
+}
+
+.todoItem {
+  width: 100%;
+  display: flex;
+  padding: 15px 10px;
+  border-bottom: 1px solid #9b9d9ea8;
+  color: #000;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.textSection {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.activitySection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activityBtn {
+  cursor: pointer;
+  width: 90px;
+  color: #000;
+  background: transparent;
+  margin: 0;
+  border: 0;
+  transition: 500ms;
+}
+
+.activityBtn:hover {
+  color: rgb(5, 190, 129);
+}
+
+.delete:hover {
+  color: rgb(199, 14, 14);
+}
+
+.checkbox {
+  cursor: pointer;
+}
